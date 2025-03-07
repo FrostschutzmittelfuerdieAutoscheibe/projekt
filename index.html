@@ -2,7 +2,6 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frostschutzmittel-Projekt - Jugend forscht</title>
     <style>
         body {
@@ -14,8 +13,37 @@
         header {
             background-color: #0044cc;
             color: white;
-            padding: 20px;
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .marquee-container {
+            position: absolute;
+            width: 100%;
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        @keyframes marquee {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+        h1 {
             text-align: center;
+            background-color: #0044cc;
+            color: white;
+            padding: 15px;
+            margin: 0;
         }
         nav {
             background-color: #002a80;
@@ -60,16 +88,19 @@
 <body>
 
 <header>
-    <h1>Frostschutzmittel für die Autoscheibe</h1>
-    <p>Ein Jugend forscht Projekt von Timo Ernst & Julius Schneider</p>
+    <div class="marquee-container">
+        Projekt zum Landeswettbewerb qualifiziert!
+    </div>
 </header>
+
+<h1>Frostschutzmittel für die Autoscheibe</h1>
 
 <nav>
     <a href="#projektbeschreibung">Projektbeschreibung</a>
     <a href="#hintergrund">Hintergrund</a>
     <a href="#experimente">Experimente</a>
     <a href="#video">Projektvideo</a>
-    <a href="#kontakt">Infos und Impressum</a>
+    <a href="#kontakt">Infos und Impessum</a>
 </nav>
 
 <section id="projektbeschreibung">
@@ -79,7 +110,7 @@
 
 <section id="hintergrund">
     <h2>Hintergrund & Grundlagen</h2>
-    <p>Unsere Mischung besteht aus Isopropylalkohol, Spülmittel und Wasser. Die Kombination sorgt für Schutz vor Frost und eine saubere Scheibe.</p>
+    <p>Unsere Mischung besteht aus Isopropylalkohol, Spülmittel, Xanthan gum und Wasser. Die Kombination sorgt für Schutz vor Frost und eine saubere Scheibe.</p>
 </section>
 
 <section id="experimente">
@@ -95,20 +126,18 @@
         Dein Browser unterstützt dieses Videoformat nicht.
     </video>
     <p class="video-source">
-        Quelle für den Clip "Uhr bei Film": 
+        Quelle für den Clip „Uhr bei Film“: 
         <a href="https://de.vecteezy.com/kostenlos-videos/uhr" target="_blank">https://de.vecteezy.com/kostenlos-videos/uhr</a>
     </p>
 </section>
 
 <section id="kontakt">
-    <h2>Infos und Impessum</h2>
+    <h2>Infos & Impressum</h2>
     <p>Projekt von Timo Ernst & Julius Schneider<br>
     Wettbewerb: Jugend forscht Junior 2024/25<br>
     Erarbeitungsort: barnim-gymnasium bernau<br>
     Email: Timo3010x@tutamail.com<br>
-    Hinweis: Diese Webseite ist ein Schülerprojekt im Rahmen von Jugend forscht.
-    
-    </p>
+    Hinweis: Diese Webseite ist ein Schülerprojekt im Rahmen von Jugend forscht.</p>
 </section>
 
 <footer>
