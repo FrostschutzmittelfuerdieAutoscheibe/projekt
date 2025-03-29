@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Die neue Mischung - Frostschutzmittel-Projekt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0044cc;
+        }
+        p {
+            line-height: 1.6;
+            color: #333;
+        }
+        .back-btn {
+            display: block;
+            width: 80%;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: #003399;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0044cc;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Die neue Mischung
+</header>
+
+<section>
+    <h2>Wir haben mittlerweile viel weiter geforscht</h2>
+    <p>
+        Es wurden 3 weitere Bestandteile hinzugefügt. Die Mischung wirkt nun noch besser gegen Frost.  
+        Außerdem hält sie für längere Zeit an der Scheibe und wird <strong>NICHT</strong> vom Regen abgewaschen.<br>
+        <br>
+        Das Ziel ist eine Mischung, die man nur ein einziges mal im Winter auftragen muss. Wir sind kurz davor das Ziel zu erreichen...
+    </p>
+</section>
+
+<!-- Zurück-Button -->
+<a href="index.html" class="back-btn">Zurück zur Hauptseite</a>
+
+<footer>
+    <p>© 2025 Timo Ernst & Julius Schneider</p>
+</footer>
+
+</body>
+</html>
